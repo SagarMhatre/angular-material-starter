@@ -10,14 +10,27 @@ import {
   MdDatepickerModule,
   MdNativeDateModule,
   MdCheckboxModule,
-  MdRadioModule
+  MdRadioModule,
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { CamoneComponent } from './camone/camone.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MdToolbarModule, MdTabsModule, MdButtonModule, MdInputModule, MdDatepickerModule, MdNativeDateModule, MdCheckboxModule, MdRadioModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [
+    BrowserModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MdToolbarModule,
+    MdTabsModule,
+    MdButtonModule,
+    MdInputModule,
+    MdDatepickerModule,
+    MdNativeDateModule,
+    MdCheckboxModule,
+    MdRadioModule,
+  ],
+  declarations: [AppComponent, CamoneComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
